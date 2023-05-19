@@ -26,22 +26,21 @@ console.log("**************");
 numbers.unshift(0);
 
 for (let i = 0; i < numbers.length; i++) {
-    console.log(numbers[i]);
+  console.log(numbers[i]);
 }
 
-
-console.log("**************"); 
+console.log("**************");
 
 numbers.splice(3);
 
 for (let i = 0; i < numbers.length; i++) {
-    console.log(numbers[i]);
+  console.log(numbers[i]);
 }
-console.log("**************"); 
+console.log("**************");
 
-numbers.push(4,5,6);
+numbers.push(4, 5, 6);
 for (let i = 0; i < numbers.length; i++) {
-    console.log(numbers[i]);
+  console.log(numbers[i]);
 }
 
-console.log("**************"); 
+console.log("**************");
