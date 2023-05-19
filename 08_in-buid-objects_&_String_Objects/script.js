@@ -21,3 +21,10 @@ console.log(name.replace("Jain    ", "Verma")); // ==>
 console.log(name.length);
 console.log(name);
 console.log(name.split(" "));
+
+
+
+
+// Template Literals ==> ` `
+
+console.log(`Hello ${name},`);
