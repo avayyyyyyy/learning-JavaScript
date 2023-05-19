@@ -25,3 +25,7 @@ console.log(name.split(" "));
 // Template Literals ==> ` `
 
 console.log(`Hello ${name},`);
+
+
+// Date And TIme Functions ==> " Date();"
+console.log(Date());
