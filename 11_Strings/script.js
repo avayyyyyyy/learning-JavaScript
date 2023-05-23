@@ -75,5 +75,12 @@ let para = "Hello There, Today we are learning about String functions.";
 // isPresent("Present");
 
 // Slice Function
-let exampleSring = "Abhi";
-console.group(exampleSring.slice(2, 4));
+// let exampleSring = "Abhi";
+// console.group(exampleSring.slice(2, 4));
+// console.group(exampleSring.slice(0));
+
+// Split Function
+
+let word = "He Is A SuperHero!";
+console.log(word.split("")); // ==> Divides the string in a single letters array = ["a", "b", "c", "d]
+console.log(word.split(" ")); // ==> Divides the string in a single word array = ["Abhi","is","a","GoodBoy"]
