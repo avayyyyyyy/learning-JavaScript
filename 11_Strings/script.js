@@ -51,11 +51,29 @@
 
 // indexOf();
 
-let index = "Hii There is no one inside the room!";
-//  console.log(index.indexOf("no"));
+// let index = "Hii There is no one inside the room!";
+// //  console.log(index.indexOf("no"));
 
-if (index.indexOf("Hii") < 0) {
-  console.log("Not Present");
-} else {
-  console.log("Present");
-}
+// if (index.indexOf("Hii") < 0) {
+//   console.log("Not Present");
+// } else {
+//   console.log("Present");
+// }
+
+// Include Function ==> Returns a Boolean value.
+
+let para = "Hello There, Today we are learning about String functions.";
+
+// let isPresent = (word) => {
+//     if (para.includes(word) === true) {
+//       console.log(word + " is Present inside the para.");
+//     } else {
+//       console.log(word + " is Not Present inside the para.");
+//     }
+// }
+
+// isPresent("Present");
+
+// Slice Function
+let exampleSring = "Abhi";
+console.group(exampleSring.slice(2, 4));
