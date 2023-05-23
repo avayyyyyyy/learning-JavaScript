@@ -12,7 +12,7 @@
 
 // // Scope is all depend upon the blocks scope ==> means the local variable can only be accessed through only in that particular block scope.
 
-// // Hoisting scope
+// // Hoisting scope ==>  Hoisting is like defining a variable or somenthing but not providing any value to it.
 
 // var age;
 // console.log(age);

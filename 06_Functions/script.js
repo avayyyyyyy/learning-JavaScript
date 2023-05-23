@@ -65,13 +65,40 @@
 // console.log(result);
 
 // Paramenters - are usd when defining a function
-// Argumets - Passed when making a function call 
+// Argumets - Passed when making a function call
 
-const sayHii = (firstName,age) => `Hiii, ${firstName}, Your age is ${age}`;
+// const sayHii = (firstName,age) => `Hiii, ${firstName}, Your age is ${age}`;
 
-const final= sayHii("Abhi");
+// const final= sayHii("Abhi");
 
-console.log(final);
+// console.log(final);
+
+// Default Parameters = (name = abhi, age =19) ==> `Hiii, ${firstName}, Your age is ${age}`;
+
+// listOfCourses = [
+//     {
+//         no:1,
+//         name:"DSA",
+//         duration : 3,
+//     },
+//     {
+//         no: 2,
+//         name: "WebDev",
+//         duration : 4,
+//     }
+// ]
+
+//  listOfCourses.find(function("DSA"){
+//     if( listOfCourses.name == "DSA"){
+//         console.log(listOfCourses.name === "DSA")
+//     }
+//  })
 
 
-// Default Parameters = (name = abhi, age =19) ==> `Hiii, ${firstName}, Your age is ${age}`; 
+
+const number = (numbers) => {
+    return numbers**2;
+}
+
+
+console.log(number(3));
