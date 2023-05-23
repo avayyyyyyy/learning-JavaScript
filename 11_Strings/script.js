@@ -81,6 +81,30 @@ let para = "Hello There, Today we are learning about String functions.";
 
 // Split Function
 
-let word = "He Is A SuperHero!";
-console.log(word.split("")); // ==> Divides the string in a single letters array = ["a", "b", "c", "d]
-console.log(word.split(" ")); // ==> Divides the string in a single word array = ["Abhi","is","a","GoodBoy"]
+// let word = "He Is A SuperHero!";
+// console.log(word.split("")); // ==> Divides the string in a single letters array = ["a", "b", "c", "d]
+// console.log(word.split(" ")); // ==> Divides the string in a single word array = ["Abhi","is","a","GoodBoy"]
+
+// Reversing an String
+// As we know that there are no reverse method present in an string.
+// So we'll make a function to do that!
+
+// let word  = "tset";
+// const stringReverse = (word) => {
+//         wordToArray = word.split("");
+//         console.log(wordToArray.reverse());
+// }
+
+// stringReverse();
+
+let word = "Abhi";
+// const stringReverse = (word) => {
+//   wordToArray = word.split("").reverse().join("");
+//   return wordToArray;
+// };
+
+// OR
+
+let reverseString = word.split("").reverse().join("");
+
+console.log(reverseString);

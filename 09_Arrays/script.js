@@ -124,3 +124,10 @@ number = [1, 2, 3, 4, 5];
 
 // Concatination Of An Array.
 
+let firstArray = ["Abhi"]
+let secArray = ["Jain"]
+let thirdArray = [firstArray +" "+ secArray];
+
+
+console.log(thirdArray);
+console.log(typeof thirdArray);
