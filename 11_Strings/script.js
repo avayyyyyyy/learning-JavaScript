@@ -62,7 +62,7 @@
 
 // Include Function ==> Returns a Boolean value.
 
-let para = "Hello There, Today we are learning about String functions.";
+// let para = "Hello There, Today we are learning about String functions.";
 
 // let isPresent = (word) => {
 //     if (para.includes(word) === true) {
@@ -97,14 +97,51 @@ let para = "Hello There, Today we are learning about String functions.";
 
 // stringReverse();
 
-let word = "Abhi";
+// let word = "Abhi";
 // const stringReverse = (word) => {
 //   wordToArray = word.split("").reverse().join("");
 //   return wordToArray;
 // };
 
 // OR
+// let word = "Abhi";
 
-let reverseString = word.split("").reverse().join("");
+// let reverseString = word.split("").reverse().join("");
 
-console.log(reverseString);
+// console.log(reverseString);
+
+// Repeat Function
+// let word  =  "Abhi "
+// console.log(word.repeat(2));
+
+// Trim Function ==> Trims some whitespace from the string.
+// let para = "Hello Bro         ";
+// console.log(para);
+// console.log(para.length);
+// let newPara = para.trim();
+// console.log(newPara);
+// console.log(newPara.length);
+
+// Excercise Time ==>
+
+// const Guest = "Our Guests are: emma, jacob, issabella, ethan";
+
+// length = Guest.length;
+
+// console.log(length);
+
+// let upperCasedguestList = Guest.toUpperCase();
+
+// console.log(upperCasedguestList);
+
+// let isEthanOnTheList = upperCasedguestList.includes("ETHAN");
+
+// console.log(isEthanOnTheList);
+
+// let subStringGuests = upperCasedguestList.slice(16);
+
+// console.log(subStringGuests);
+
+// let guests = subStringGuests.split(" ");
+
+// console.log(guests);

@@ -1,3 +1,14 @@
+// ARRAYS ==> combination of multiple tyes o data in a single unit.
+
+// let example = ["myNameIs:Abhi", () => {}, { name: "abhi", year: 2 }, true, 2];
+
+// for (let i = 0 ;  i< example.length ; i++){
+//     console.log(example[i]);
+// }
+
+// for (let key in example) {
+//   console.log(example[key]);
+// }
 // // END ==> push / pop
 // // START ==> shift / unshift
 // // MIDDLE ==> splice / slice
@@ -69,9 +80,7 @@
 // /* [ 'Abhi', 'Ayush', 'Lucky' ]
 //    [ 'Abhi', 'Harsh', 'Ayush', 'Lucky' ]  */
 
-
 // number = [0,1,2,3,4,5];
-
 
 // // number.splice(3,1);
 
@@ -90,14 +99,12 @@
 // number = [];
 
 // console.log(number); // []
-// console.log(number2); // [ 1, 2, 3, 4, 5 ] 
+// console.log(number2); // [ 1, 2, 3, 4, 5 ]
 // This means the array is not deleted yet.
-
-
 
 // Perfect way of deleting an array is ==>
 
-number = [1, 2, 3, 4, 5];
+// number = [1, 2, 3, 4, 5];
 
 // let number2 = number;
 
@@ -113,21 +120,30 @@ number = [1, 2, 3, 4, 5];
 // console.log(number); // []
 // console.log(number2); // []
 
-// OR 
+// OR
 
 // while (number.length > 0){
 //     number.pop();
 //     console.log(number); // []
 // }
 
-
-
 // Concatination Of An Array.
 
-let firstArray = ["Abhi"]
-let secArray = ["Jain"]
-let thirdArray = [firstArray +" "+ secArray];
+// let firstArray = ["Abhi"];
+// let secArray = ["Jain"];
+// let thirdArray = [firstArray + " " + secArray];
 
+// console.log(thirdArray);
+// console.log(typeof thirdArray);
 
-console.log(thirdArray);
-console.log(typeof thirdArray);
+// Splice functions ==> It is used to add/remove elements inside/between the Array.
+
+// let names = ["Abhi", "Bharat", "Chandu", "David"];
+
+// names.splice(1, 0, "Bahubali"); //[ 'Abhi', 'Bahubali', 'Bharat', 'Chandu', 'David' ]
+// console.log(names);
+
+// Slice Function ==> Copies the certain part of the array into the new Array.
+
+// let newArray = names.slice(1,3)
+// console.log(newArray);
