@@ -94,8 +94,44 @@
 //     }
 //  })
 
-const number = (numbers) => {
-    return numbers**2;
-}
+// const number = (numbers) => {
+//     return numbers**2;
+// }
 
-console.log(number(3));
+// console.log(number(3));
+
+// REST Operators ==> By using this we can store the arguments in the form of array.
+
+// function sum(num,...args) {
+//     console.log(typeof args);
+//     console.log(typeof num);
+// }
+
+// sum(1,2,3,4,5,6,7);
+
+// Deafult Parameters ==>
+
+// function sum(a = 0,b = 0){
+// return a+b;
+// }
+// console.log(5);
+
+// Getter & Setter Functions ==> The set method is used to set the value and the get method is used to get the value which we have setted.
+
+naam = {
+  pName: "Abhi",
+  aName: "Jain",
+
+  set fullName(value) {
+    let split = value.split(" ");
+    this.pName = split[0];
+    this.aName = split[1];
+  },
+  get fullName() {
+    return `${this.pName} ${this.aName}`;
+  },
+};
+
+naam.fullName = "Shubhankit Jain";
+
+console.log(naam.fullName);
