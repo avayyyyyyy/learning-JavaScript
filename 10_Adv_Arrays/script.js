@@ -167,11 +167,11 @@
 // Array reduce ==>
 
 let groceryList = [29, 12, 45, 35, 87, 110];
+let total = 0;
 
 // for (let values in groceryList) {
 //   total = total + values;
 
-let total = 0;
 groceryList.forEach((value) => (total += value));
 
 console.log(total);
