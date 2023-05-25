@@ -11,16 +11,70 @@
 // you're working with async functions
 
 // For Example ==> 
-let sum  = 0 ;
-let numbers=[1,2,3,4,5,6];
+// let sum  = 0 ;
+// let numbers=[1,2,3,4,5,6];
+// numbers.forEach((number)=>{ sum +=number });
+// console.log(sum);
+// function add (2,2){
+//    let result = a+b;
+// }
+// console.log(result);
 
-numbers.forEach((number)=>{ sum +=number });
+// Concatination of an array of numbers.
 
-console.log(sum);
+// let first  = [1,2,3];
+// let second  =[4,5,6];
 
+// let final = f,irst.concat(second);
 
-function add (2,2){
-   let result = a+b;
-}
+// console.log(final);  
+// console.log(typeof final);  
 
-console.log(result);
+// OR by using "Spread" Operators ==> It is used to concat mutilple arrays.
+
+// let first = [1, 2, 3];
+// let second = [4, 5, 6];
+
+// let final = [...first, ...second];
+// console.log(final);
+
+// HOMEWORK ==>
+
+// let first = [
+//    {
+//       name : "abhi"
+//    }
+// ]
+
+// let swcond = [
+  
+//   {
+//     name: "komal",
+//   }
+// ];
+
+// let combined = first.concat(swcond);
+// console.log(combined); //
+// console.log(combined.slice(0, 1));
+
+// let random =  [5,5,6,3,2,1,4,5,6,5,2];
+// console.log(random.sort().reverse());
+
+// FILTER Functions ==>
+
+// let random =  [5,5,6,3,2,1,4,5,6,5,2];
+// let final = random.filter((number)=>{
+//    return (number <= 4)
+// })
+
+// console.log(final.sort());
+
+// MAP Function ==> 
+
+// let random =  [5,5,6,3,2,1,4,5,6,5,2];
+// let final =  random.map((number)=>{
+//       return number*100
+// })
+
+// console.log(final.sort());
+
