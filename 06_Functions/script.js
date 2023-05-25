@@ -94,11 +94,8 @@
 //     }
 //  })
 
-
-
 const number = (numbers) => {
     return numbers**2;
 }
-
 
 console.log(number(3));
