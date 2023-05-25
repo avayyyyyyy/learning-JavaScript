@@ -90,7 +90,6 @@
 
 // console.log(another);
 
-
 // let a = [1,2,3,4,5];
 // let total = 0;
 
@@ -168,6 +167,7 @@
 // Array reduce ==>
 
 let groceryList = [29, 12, 45, 35, 87, 110];
+
 // for (let values in groceryList) {
 //   total = total + values;
 
