@@ -166,12 +166,38 @@
 // Hardest method of array to understand
 // Array reduce ==>
 
-let groceryList = [29, 12, 45, 35, 87, 110];
-let total = 0;
+// let groceryList = [29, 12, 45, 35, 87, 110];
+// let total = 0;
 
-// for (let values in groceryList) {
-//   total = total + values;
+// // for (let values in groceryList) {
+// //   total = total + values;
 
-groceryList.forEach((value) => (total += value));
+// groceryList.forEach((value) => (total += value));
 
-console.log(total);
+// console.log(total);
+
+// ==> Questions Arena 
+
+// Q1. Sort by lowest to highest value
+// ==>[20,40,10,30,10,50]
+// ==>[5,10,0,-5]
+// ==>[3,2,1,0]
+
+
+// let arr1 = [20, 40, 10, 30,10,50];
+// console.log(arr1.sort());
+
+// let arr2 = [5, 10, 0, -5];
+// console.log(arr2.sort());
+
+// let arr3 = [3, 2, 1, 0];
+// console.log(arr3.sort());
+
+let sortLowToHigh = [
+    {id: 1, price: 50},
+    {id: 2, price: 30},
+    {id: 3, price: 60},
+    {id: 4, price: 10}
+]
+
+console.log(sortLowToHigh.sort((a,b) => a.price - b.price) );
