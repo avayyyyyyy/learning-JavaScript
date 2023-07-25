@@ -6,7 +6,6 @@ const body = document.querySelector("body"); // Get the first element from the c
 const boxes = document.querySelectorAll(".box"); // Get the first element from the collection
 
 boxes.forEach((box) => {
-  console.log(boxes);
   box.addEventListener("click", (e) => {
     if (e.target.id == "b1") {
       body.style.backgroundColor = "aquamarine";
