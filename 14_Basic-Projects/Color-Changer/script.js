@@ -3,20 +3,19 @@ const box2 = document.querySelector(".box:nth-child(2)");
 const box3 = document.querySelector(".box:nth-child(3)");
 const box4 = document.querySelector(".box:nth-child(4)");
 const body = document.querySelector("body"); // Get the first element from the collection
+const boxes = document.querySelectorAll(".box"); // Get the first element from the collection
 
-box1.addEventListener("click", () => {
-  body.style.backgroundColor = "aquamarine";
-//   console.log("hello");
-});
-box2.addEventListener("click", () => {
-  body.style.backgroundColor = "yellow";
-//   console.log("hello");
-});
-box3.addEventListener("click", () => {
-  body.style.backgroundColor = "greenyellow";
-//   console.log("hello");
-});
-box4.addEventListener("click", () => {
-  body.style.backgroundColor = "burlywood";
-//   console.log("hello");
+boxes.forEach((box) => {
+  console.log(boxes);
+  box.addEventListener("click", (e) => {
+    if (e.target.id == "b1") {
+      body.style.backgroundColor = "aquamarine";
+    } else if (e.target.id == "b2") {
+      body.style.backgroundColor = "yellow";
+    } else if (e.target.id == "b3") {
+      body.style.backgroundColor = "greenyellow";
+    } else if (e.target.id == "b4") {
+      body.style.backgroundColor = "burlywood";
+    } else return;
+  });
 });
