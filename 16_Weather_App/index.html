@@ -12,19 +12,19 @@
     <div class="wrapper">
         <h1>Weather App</h1>
         <div class="input">
-            <input type="text" name="" id="input" placeholder="Enter City Name Here!">
-            <button>Get Weather</button>
+            <input type="text" name="" id="cityName" placeholder="Enter City Name Here!">
+            <button id="getWeather">Get Weather</button>
         </div>
-        <i class="fa-solid fa-clouds-sun"></i>
+        <i class="fa-solid fa-cloud-bolt"></i>
         <div class="temp">
             <div class="tempno">4</div>
             <div class="degree">°C</div>
         </div>
-        <h3>Overcast Clouds</h3>
+        <h3 id="description">Overcast Clouds</h3>
         <div class="boxes">
-            <div class="box"></div>
-            <div class="box"></div>
-            <div class="box"></div>
+            <div class="box">Feels like : <span id="fl-n">3</span>°C</div>
+            <div class="box">Humidity : <span id="hu-n">81</span>%</div>
+            <div class="box">Wind Speed : <span id="ws-n">154</span>m/s</div>
         </div>
 
     </div>
